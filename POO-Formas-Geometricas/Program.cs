@@ -65,7 +65,7 @@ namespace POO_Formas_Geometricas
             foreach (Forma forma in list)
             {
                 //Exibição das áreas de todas as formas inseridas pelo usuário, em ordem, com no máximo dois caracteres.
-                Console.WriteLine(forma.Area().ToString("F2", CultureInfo.InvariantCulture);
+                Console.WriteLine(forma.Area().ToString("F2", CultureInfo.InvariantCulture));
             }
         }
     }
